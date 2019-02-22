@@ -9,8 +9,8 @@ Nice instructions and suggestions
 ## Git Tutorial
 Usefull link to familiarize with Git
 
-Simple Guide: https://rogerdudler.github.io/git-guide/index.html
+ * Simple Guide: https://rogerdudler.github.io/git-guide/index.html
 
-Complte Tutorial: https://git-scm.com/docs/gittutorial
+ * Complte Tutorial: https://git-scm.com/docs/gittutorial
 
-asy-to-use syntax for README: https://www.markdownguide.org/basic-syntax/
+ * Easy-to-use syntax for README: https://www.markdownguide.org/basic-syntax/
