@@ -7,7 +7,7 @@ Nice instructions and suggestions
 
 
 ## Git Tutorial
-Usefull link to familiarize with Git
+Usefull links to familiarize with Git
 
  * Simple Guide: https://rogerdudler.github.io/git-guide/index.html
 
