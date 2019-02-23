@@ -15,11 +15,7 @@ Useful links to familiarize with Git
 
  * Easy-to-use syntax for README: https://www.markdownguide.org/basic-syntax/
 
-```
-$ code test
-```
-
-###Quick start:
+### Quick start:
 
 After creating a GitHub account you should associate it with an SSH key on your notebook.
 
@@ -59,12 +55,7 @@ Now add the ssh to your GutHub account:
 ```
 $ cat ~/.ssh/id_rsa
 ```
-	
+
 Copy the content and add it to "SSH and GPG keys" in your GitHub account.
 
 Now you can start using git command (tutorial above).
-=======
-```
-$ code test
-```
->>>>>>> 88205d16e657b25bbb8a92ed5b52cd1d5de951f7
