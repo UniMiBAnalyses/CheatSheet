@@ -15,4 +15,4 @@ Usefull links to familiarize with Git
 
  * Easy-to-use syntax for README: https://www.markdownguide.org/basic-syntax/
 
-  $ code test
+    $ code test
