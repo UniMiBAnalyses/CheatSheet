@@ -6,6 +6,8 @@ Useful links to familiarize with Git
 
 * Easy-to-use syntax for README: https://www.markdownguide.org/basic-syntax/
 
+* Do NEVER commit/add root files or plots on the repository
+
 ### Quick start:
 
 After creating a GitHub account you should associate it with an SSH key on your notebook.
