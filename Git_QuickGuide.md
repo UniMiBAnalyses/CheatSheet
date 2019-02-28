@@ -47,3 +47,14 @@ $ git config --global user.github <GitUserName>
 $ git config --global user.email <GitEmail>
 ```
 Now you can start using git commands (tutorial above).
+
+## Ignore file during commit/add
+To ignore files or directory during the commit phase you can create a .gitignore file:
+
+	#Example
+	/plots
+	/rootFile
+	.gitignore
+	*png
+
+The directories *plots*, *rootFile*, the *.gitignore* file and all the *png* files will be ignored.
