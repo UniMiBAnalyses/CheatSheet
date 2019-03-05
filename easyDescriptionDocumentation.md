@@ -1,6 +1,4 @@
-# Useful command 
-
-## EasyDescription
+# EasyDescription
 If you want to see what mkShapes will read from your *sample.py* configuration tou can 
 expand it using *EasyDescription.py* script.
 
