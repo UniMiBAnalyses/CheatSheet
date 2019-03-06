@@ -11,4 +11,4 @@ Nice instructions and suggestions
  * Some *ROOT CERN* tutorials: *ROOT_CERN.md*;
  * Simple description of how *Hercules connection works* : *ProxyTunnel.md*; 
  * Brief description of *easyDescription.py* : *easyDescriptionDocumentation.md*;
- * How to obtain plot using LatinoFramework:*LatinoPlot.py*;
+ * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*LatinoPlot.py*;

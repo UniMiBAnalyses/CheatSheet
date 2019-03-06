@@ -50,8 +50,8 @@ will be used by *mkPlot.py* and *mkDatacards*.
 ### 2.1 Submit jobs
 If you have a lot of samples you can submit the jobs on batch:
 
-	mkShapes.py --pycfg=configuration.py\
-	--batchSplit=AsMuchAsPossible\
+	mkShapes.py --pycfg=configuration.py \
+	--batchSplit=AsMuchAsPossible \
 	--doBatch=True
 The jobs can take a while, thus to check their status:
 
@@ -82,8 +82,8 @@ If several jobs failed and you want to resubmit them all at once you can do:
 If the command above is used, the output files will be split in different parts, 
 depending on the number of jobs created. To merge these files use:
 
-	mkShapes.py --pycfg=configuration.py\
-	--batchSplit=AsMuchAsPossible\
+	mkShapes.py --pycfg=configuration.py \
+	--batchSplit=AsMuchAsPossible \
 	--doHadd=True
 	
 *NB*: If the --batchSplit=AsMuchAsPossible option is used, do not _hadd_
@@ -101,7 +101,7 @@ At this stage one can either produce plots or datacards.
 Now we are ready to make data/MC comparison plots.
 
     mkPlot.py --inputFile=rootFile_test/plots_VBS_SS_test.root \
-	--showIntegralLegend=1\
+	--showIntegralLegend=1 \
 	--scaleToPlot=1.9
 
 For more options look at the follow link: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkPlot.py
