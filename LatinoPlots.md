@@ -53,6 +53,10 @@ If you have a lot of samples you can submit the jobs on batch:
 	mkShapes.py --pycfg=configuration.py \
 	--batchSplit=AsMuchAsPossible \
 	--doBatch=True
+If you are not using the "True" statement in getSamplesFile(Dir, file , **True**), you need to add to the command above:
+
+	--inputDir=path_To_Samples	
+ 
 The jobs can take a while, thus to check their status:
 
     mkBatch.py --status
@@ -90,7 +94,7 @@ depending on the number of jobs created. To merge these files use:
 the outputs by hand but use the command above instead. Otherwise the MC 
 statistical uncertainties will not be treated in the correct way.
 
-Link mkShapes.py code: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkShapes.py
+Link to mkShapes.py code: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkShapes.py
 
 ## 3. mkPlot & mkDatacrds
 
@@ -100,16 +104,23 @@ At this stage one can either produce plots or datacards.
 
 Now we are ready to make data/MC comparison plots.
 
-    mkPlot.py --inputFile=rootFile_test/plots_VBS_SS_test.root \
+    mkPlot.py --inputFile=rootFile_test/plots_<tag>.root \
 	--showIntegralLegend=1 \
 	--scaleToPlot=1.9
 
-For more options look at the follow link: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkPlot.py
+The output directory where the plots will be saves is defined in configuration.py.
+For more options look at the following link: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkPlot.py
+
+**N.B**: The plots will be generated using the root file created by mkShapes, so
+the samples used in plot.py **MUST** be defined in samples.py.
+
 
 ### 3.2 Produce datacards
 
     mkDatacards.py --pycfg=configuration.py \
-	--inputFile=rootFile_test/plots_VBS_SS_test.root
+	--inputFile=rootFile_test/plots_<tag>.root
 
 Link: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkDatacards.py
 
+**N.B**: The datacards will be generated using the root file created by mkShapes, so
+the samples used in structure.py **MUST** be defined in samples.py.
