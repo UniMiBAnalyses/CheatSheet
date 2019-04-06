@@ -37,7 +37,7 @@ $ ssh-add ~/.ssh/id_rsa
 ```
 Now add the ssh to your GutHub account: 
 ```
-$ cat ~/.ssh/id_rsa
+$ cat ~/.ssh/id_rsa.pub
 ```
 Copy the content and add it to **"SSH and GPG keys"** in your GitHub account.
 Before getting started update your git information:
@@ -58,3 +58,5 @@ To ignore files or directory during the commit phase you can create a .gitignore
 	*png
 
 The directories *plots*, *rootFile*, the *.gitignore* file and all the *png* files will be ignored.
+
+More details here: https://help.github.com/en/articles/ignoring-files

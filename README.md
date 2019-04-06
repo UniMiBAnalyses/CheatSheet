@@ -12,3 +12,5 @@ Nice instructions and suggestions
  * Simple description of how *Hercules connection works* : *ProxyTunnel.md*; 
  * Brief description of *easyDescription.py* : *easyDescriptionDocumentation.md*;
  * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*LatinoPlot.py*;
+ * Useful links and information about bTag: *bTag.md*;
+ 
