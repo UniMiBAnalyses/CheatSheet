@@ -30,6 +30,8 @@ Or for *nuisances.py*:
 	
 You can use this script to check the samples used and the directory where they are stored.
 
+**N.B** : *samples.py* is required as input if *nuisances.py* contains references to variables defined in *samples.py* 
+
 Link to the script:
 https://github.com/latinos/LatinoAnalysis/blob/33dc1f802a779493953422c874788e06e134c485/ShapeAnalysis/scripts/easyDescription.py
 
