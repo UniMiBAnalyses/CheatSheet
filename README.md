@@ -17,7 +17,6 @@ Nice instructions and suggestions
  * Some *ROOT CERN* tutorials: *ROOT_CERN.md*;
  * Install ROOT from source on your laptop: *ROOT.md*;
  * Simple description of how *Hercules connection works* : *ProxyTunnel.md*; 
- * Brief description of *easyDescription.py* : *easyDescriptionDocumentation.md*;
  * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*LatinoPlot.py*;
  * Useful links and information about bTag: *bTag.md*;
  
