@@ -1,6 +1,10 @@
 # Latino Plot - Quick Guide 
 
 ## 0. Before starting
+
+If the latino framework has not been installed yet follow this guide: https://docs.google.com/presentation/d/1-Hb5WXXzh-DvXmM1YBS-0j-YYFYemwJAPaaYzfXhlXw/edit?usp=sharing 
+
+
 Before using the following commands make sure the *userConfig.py*
 contain the correct path for *BaseDir*.
 
