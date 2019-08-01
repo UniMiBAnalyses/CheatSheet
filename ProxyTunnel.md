@@ -8,3 +8,5 @@ First you connect to Virgilio (ssh UserName@virgilio.mib.infn.it), then you conn
 Now, with the istructions in the link below you can configure your computer in order to do this double step with one command == **proxy tunnel**
 
 **ProxyCommand ssh virgilio nc %h %p**: tell to SSH to connect to hercules through the host %h (virgilio) and using the port %p
+
+Link to istructions: https://docs.google.com/document/d/15__C64kTrdyaUplczE0hLkhrIZWsNuoeFGUsttCVsR0/edit?usp=sharing
