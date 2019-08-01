@@ -9,8 +9,10 @@ Nice instructions and suggestions
 ## Statistics
 
  * Description of the statistical analysis performed at ATLAS and CMS, details about likelihood fit, nuisances, ... Link: https://cds.cern.ch/record/1379837/files/NOTE2011_005.pdf
- 
-## Available Guides
+ * Link to the latest version of the lecture notes of W.J.Metzger ("Statistical Methods in Data Analysis") containing a brief review of probability, an introduction to Monte Carlo methods,
+estimation of parameters, confidence intervals, and hypothesis testing: http://www.hef.ru.nl/~wes/stat_course/statist_2002.pdf
+
+# Available Guides
 
  * Simple guide about git here: *Git_QuickGuide.md*;
  * How to install *kate* and fish for remote access here: *KATE.md*;
