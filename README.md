@@ -13,7 +13,7 @@ Nice instructions and suggestions
 estimation of parameters, confidence intervals, and hypothesis testing: http://www.hef.ru.nl/~wes/stat_course/statist_2002.pdf
 
 ## Latino Framework installation guide
- * Link to a step-by-step guide for installing the latio framework on the hercules cluster: https://docs.google.com/presentation/d/1-Hb5WXXzh-DvXmM1YBS-0j-YYFYemwJAPaaYzfXhlXw/edit?usp=sharing
+ * Link to a step-by-step guide for installing the latino framework on hercules: https://docs.google.com/presentation/d/1-Hb5WXXzh-DvXmM1YBS-0j-YYFYemwJAPaaYzfXhlXw/edit?usp=sharing
 
 
 # Available Guides
