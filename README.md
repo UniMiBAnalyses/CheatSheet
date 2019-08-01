@@ -12,6 +12,10 @@ Nice instructions and suggestions
  * Link to the latest version of the lecture notes of W.J.Metzger ("Statistical Methods in Data Analysis") containing a brief review of probability, an introduction to Monte Carlo methods,
 estimation of parameters, confidence intervals, and hypothesis testing: http://www.hef.ru.nl/~wes/stat_course/statist_2002.pdf
 
+## Latino Framework installation guide
+ * Link to a step-by-step guide for installing the latio framework on the hercules cluster: https://docs.google.com/presentation/d/1-Hb5WXXzh-DvXmM1YBS-0j-YYFYemwJAPaaYzfXhlXw/edit?usp=sharing
+
+
 # Available Guides
 
  * Simple guide about git here: *Git_QuickGuide.md*;
