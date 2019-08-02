@@ -25,7 +25,8 @@ Usage:
 	easyDescription.py \
 	--inputFileSamples=samples.py \
 	--outputFileSamples=expandedScripts/expanded_samples.py
-	
+
+If a directory (expandedScripts/) is used, you must create it before using these commands.
 Or for *nuisances.py*:
 
 	easyDescription.py \
