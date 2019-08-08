@@ -41,4 +41,8 @@ Q-Something is not clear and I don't know where it is defined
     A-try to use the "search or jump to ..." field on github (top left, next to the cat logo) while being in the link
     https://github.com/latinos/LatinoAnalysis
 
+Q-How to use EasyDescription to see what mkShapes will read from your configuration?
+    
+    A-you just need to use easyDescription.py as explained in this link
+    https://github.com/UniMiBAnalyses/CheatSheet/blob/master/LatinoPlots.md
     
