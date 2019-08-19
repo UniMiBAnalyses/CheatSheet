@@ -4,6 +4,8 @@ Useful links to familiarize with Git
 
 * Complete Tutorial: https://git-scm.com/docs/gittutorial
 
+* Learning git concepts, not commands: https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc
+
 * Easy-to-use syntax for README: https://www.markdownguide.org/basic-syntax/
 
 * Do NEVER commit/add root files or plots on the repository
