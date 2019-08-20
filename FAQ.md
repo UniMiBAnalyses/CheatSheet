@@ -48,5 +48,7 @@ Q-How to use EasyDescription to see what mkShapes will read from your configurat
     
 Q-How do I display an image on Hercules?
     
-    A-You can use the command 'display'. Be sure you connected both to Virgilio and Hercules with the '-X' option (ssh -X ....). If you setup a proxy tunnel to automatically connect to Hercules, be sure that the "forward" fields in the configuration file are set to "yes". If you face problems, exit Hercules and use the command 'killall ssh', then try again.
+    A-You can use the command 'display'. Be sure you connected both to Virgilio and Hercules with the '-X' option (ssh -X). 
+    If you setup a proxy tunnel to automatically connect to Hercules, be sure that the "forward" fields in the
+    configuration file are set to "yes". If you face problems, exit Hercules and use the command 'killall ssh', then try again.
     
