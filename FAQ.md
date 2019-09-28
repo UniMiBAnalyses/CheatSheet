@@ -52,3 +52,7 @@ Q-How do I display an image on Hercules?
     If you setup a proxy tunnel to automatically connect to Hercules, be sure that the "forward" fields in the
     configuration file are set to "yes". If you face problems, exit Hercules and use the command 'killall ssh', then try again.
     
+Q-How to retrieve DAS sample names from 'latino' ones?
+
+    A-You can refer to this Python dictionary: https://github.com/latinos/LatinoTrees/blob/master/AnalysisStep/test/crab/samples/samples_summer16_Feb2017.py
+    The 'latino' sample name is the key of the samples dictionary. The value is a list and its first item is the DAS name.
