@@ -46,3 +46,8 @@ Q-How to use EasyDescription to see what mkShapes will read from your configurat
     A-you just need to use easyDescription.py as explained in this link
     https://github.com/UniMiBAnalyses/CheatSheet/blob/master/LatinoPlots.md
     
+Q-How do I connect to lxplus?
+
+    A-=you just execute "ssh NAME@lxplus.cern.ch", with "NAME" your login name.
+    If you need to open things remotely, "ssh -X NAME@lxplus.cern.ch"
+    If you need to copy things from/to lxplus, use "scp"
