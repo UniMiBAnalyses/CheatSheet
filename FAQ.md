@@ -46,6 +46,17 @@ Q-How to use EasyDescription to see what mkShapes will read from your configurat
     A-you just need to use easyDescription.py as explained in this link
     https://github.com/UniMiBAnalyses/CheatSheet/blob/master/LatinoPlots.md
     
+Q-How do I display an image on Hercules?
+    
+    A-You can use the command 'display'. Be sure you connected both to Virgilio and Hercules with the '-X' option (ssh -X). 
+    If you setup a proxy tunnel to automatically connect to Hercules, be sure that the "forward" fields in the
+    configuration file are set to "yes". If you face problems, exit Hercules and use the command 'killall ssh', then try again.
+    
+Q-How to retrieve DAS sample names from 'latino' ones?
+
+    A-You can refer to this Python dictionary: https://github.com/latinos/LatinoTrees/blob/master/AnalysisStep/test/crab/samples/samples_summer16_Feb2017.py
+    The 'latino' sample name is the key of the samples dictionary. The value is a list and its first item is the DAS name.
+
 Q-How do I connect to lxplus?
 
     A-=you just execute "ssh NAME@lxplus.cern.ch", with "NAME" your login name.

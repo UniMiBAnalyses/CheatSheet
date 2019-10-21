@@ -15,6 +15,10 @@ estimation of parameters, confidence intervals, and hypothesis testing: http://w
 ## Latino Framework installation guide
  * Link to a step-by-step guide for installing the latino framework on hercules: https://docs.google.com/presentation/d/1-Hb5WXXzh-DvXmM1YBS-0j-YYFYemwJAPaaYzfXhlXw/edit?usp=sharing
 
+## ssh & more
+
+ * see "FAQ"
+ 
 
 # Available Guides
 
