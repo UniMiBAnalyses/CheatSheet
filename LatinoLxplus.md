@@ -113,7 +113,7 @@ will be used by *mkPlot.py* and *mkDatacards.py*.
 
 **Local Usage** (few samples only):
 
-        mkShapes.py --pycfg=configuration.py
+    mkShapesMulti.py --pycfg=configuration.py --batchSplit=Samples,Files
 
 This is extramely slow, but good for testing.
 
@@ -124,6 +124,11 @@ Produce shapes:
     mkShapesMulti.py --pycfg=configuration.py --doBatch=1 --batchSplit=Samples,Files --batchQueue=espresso
     mkShapesMulti.py --pycfg=configuration.py --doBatch=1 --batchSplit=Samples,Files --batchQueue=workday 
 
+    
+Check if jobs are done by doing:
+
+    condor_q
+    
 Add root files:
 
     mkShapesMulti.py --pycfg=configuration.py --doHadd=1 --batchSplit=Samples,Files
