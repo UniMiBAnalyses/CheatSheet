@@ -1,5 +1,5 @@
 # CheatSheet
-TEST TEST TEST
+
 Nice instructions and suggestions
 
 ## Nice Instructions
