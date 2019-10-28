@@ -43,14 +43,13 @@ just rename it to:
 
     LatinoAnalysis/Tools/python/userConfig.py
 
-It defines where the jobs will be stored
+It defines where the jobs will be stored (for condor submission):
 
     #!/usr/bin/env python
     baseDir  = '/afs/cern.ch/user/x/xjanssen/cms/HWW2015/'       #    <--- the base directory
     jobDir   = baseDir+'jobs/'
     workDir  = baseDir+'workspace/'
 
-(is this used only for post-processing?)
 
 
 ## 1. Get Configurations repository
@@ -63,6 +62,8 @@ If the central configuration is needed instead of the "Unimib" one, do this inst
 
     git clone git@github.com:latinos/PlotsConfigurations.git
 
+You could also fork the repository in your own github and get that version.
+    
 If you do "ls" in src/ now you should have something like
 
     LatinoAnalysis  LatinosSetup  MelaAnalytics  PhysicsTools  PlotsConfigurations  ZZMatrixElement
@@ -104,92 +105,57 @@ Example of output:
     
 ## 3. mkShapes/mkShapeMulti
 
-TBU !!!
-
 This step reads the post-processed latino trees (samples) and produces histograms 
 for several variables and phase spaces (cuts).
 It will create some preliminarily histogram (#histo=#cuts*#Variables)
 and save the root file containing them in the **outpuDir**. This file
-will be used by *mkPlot.py* and *mkDatacards*.
+will be used by *mkPlot.py* and *mkDatacards.py*.
 
 **Local Usage** (few samples only):
 
         mkShapes.py --pycfg=configuration.py
 
-### 3.1 Submit jobs
-If you have a lot of samples you can submit the jobs on batch:
+This is extramely slow, but good for testing.
 
-        mkShapes.py --pycfg=configuration.py \
-        --batchSplit=AsMuchAsPossible \
-        --doBatch=True
-If you are not using the "True" statement in getSamplesFile(Dir, file , **True**), you need to add to the command above:
+**Submission** (few samples only):
 
-        --inputDir=path_To_Samples        
- 
-The jobs can take a while, thus to check their status:
+Produce shapes:
 
-    mkBatch.py --status
-or alternatively: 
+    mkShapesMulti.py --pycfg=configuration.py --doBatch=1 --batchSplit=Samples,Files --batchQueue=espresso
+    mkShapesMulti.py --pycfg=configuration.py --doBatch=1 --batchSplit=Samples,Files --batchQueue=workday 
 
-        qstat
+Add root files:
 
-After all your jobs are finished, and before going to the next step, check the .jid files 
-in the following output directory (**tag** is specified in *configuration.py* , **BaseDir** is defined
-in the *userConfig.py* file):
-
-    ls -l <BaseDir>/jobs/mkShapes__tag/*.jid
+    mkShapesMulti.py --pycfg=configuration.py --doHadd=1 --batchSplit=Samples,Files
+    mkShapesMulti.py --pycfg=configuration.py --doHadd=1 --batchSplit=Samples,Files  --nThreads=6
     
-If you find .jid files it means that the corresponding jobs failed, check the .err and .out 
-files to understand the reason of the failure.
+If this is too slow try to hadd manually (TAG is the one in configuration.py)
 
-If a job takes too long / fails, one can kill it and resubmit manually, e.g.:
+    cd rootFileTAG
+    hadd -j 5 -f plots_ggH_TAG_ALL.root plots_ggH_TAG_ALL_* 
 
-    qsub <BaseDir>/jobs/mkShapes__tag/file.sh
+    
+## 4. plots
 
-If several jobs failed and you want to resubmit them all at once you can do:
+Make plots:
 
-    cd <BaseDir>/jobs/mkShapes__tag
-    for i in *jid; do qsub ${i/jid/sh}; done
-        
-### 3.2 Hadd the outputs        
-If the command above is used, the output files will be split in different parts, 
-depending on the number of jobs created. To merge these files use:
+    mkPlot.py --pycfg=configuration.py --inputFile=rootFileTAG/plots_TAG_ALL.root
 
-        mkShapes.py --pycfg=configuration.py \
-        --batchSplit=AsMuchAsPossible \
-        --doHadd=True
-        
-*NB*: If the --batchSplit=AsMuchAsPossible option is used, do not _hadd_
-the outputs by hand but use the command above instead. Otherwise the MC 
-statistical uncertainties will not be treated in the correct way.
-
-Link to mkShapes.py code: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkShapes.py
-
-## 4. mkPlot & mkDatacrds
-
-At this stage one can either produce plots or datacards.
-
-### 4.1 Produce plots
-
-Now we are ready to make data/MC comparison plots.
-
-    mkPlot.py --inputFile=rootFile_test/plots_<tag>.root \
-        --showIntegralLegend=1 \
-        --scaleToPlot=1.9
-
-The output directory where the plots will be saves is defined in configuration.py.
-For more options look at the following link: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkPlot.py
+For unblinding the control regions, comment out the signal regions in cuts.py and set isBlind=0 in plot.py. Then rerun mkPlot.py as above. 
 
 **N.B**: The plots will be generated using the root file created by mkShapes, so
 the samples used in plot.py **MUST** be defined in samples.py.
 
 
-### 4.2 Produce datacards
+## 5. Datacards
 
-    mkDatacards.py --pycfg=configuration.py \
-        --inputFile=rootFile_test/plots_<tag>.root
+Make datacards:
 
-Link: https://github.com/latinos/LatinoAnalysis/blob/master/ShapeAnalysis/scripts/mkDatacards.py
+    mkDatacards.py --pycfg=configuration.py --inputFile=rootFileTAG/plots_TAG_ALL.root
+
+Make combination of datacards and workspaces by editing the script 'scripts/doCombination.sh' and running:
+
+    ./doCombination.sh
 
 **N.B**: The datacards will be generated using the root file created by mkShapes, so
 the samples used in structure.py **MUST** be defined in samples.py.
