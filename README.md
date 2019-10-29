@@ -30,4 +30,5 @@ estimation of parameters, confidence intervals, and hypothesis testing: http://w
  * Simple description of how *Hercules connection works* : *ProxyTunnel.md*; 
  * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*LatinoPlot.py*;
  * Useful links and information about bTag: *bTag.md*;
+ * How to use Lxplus account: *sshLxplus.md* 
  
