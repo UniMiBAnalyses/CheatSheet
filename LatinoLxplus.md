@@ -50,7 +50,8 @@ It defines where the jobs will be stored (for condor submission):
     jobDir   = baseDir+'jobs/'
     workDir  = baseDir+'workspace/'
 
-
+Make sure "baseDir" is one of your folders.
+    
 
 ## 1. Get Configurations repository
 
