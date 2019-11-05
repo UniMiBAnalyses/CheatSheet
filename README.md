@@ -20,6 +20,10 @@ estimation of parameters, confidence intervals, and hypothesis testing: http://w
 
  * see "FAQ"
  
+## Gardener Modules Guide
+ 
+ * https://docs.google.com/document/d/1TQ3w-JTNYL5pPmJFRWaA2fiHDvL-cm5mmUFI3jFvvQc/edit
+
 
 # Available Guides
 
