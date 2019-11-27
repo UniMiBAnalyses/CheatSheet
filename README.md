@@ -19,7 +19,17 @@ estimation of parameters, confidence intervals, and hypothesis testing: http://w
 ## ssh & more
 
  * see "FAQ"
- 
+
+## Linux shell
+
+Introduction:
+
+    http://swcarpentry.github.io/shell-novice/
+
+Extra:
+
+    https://carpentries-incubator.github.io/shell-extras/
+
 
 # Available Guides
 
