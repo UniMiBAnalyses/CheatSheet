@@ -62,3 +62,13 @@ Q-How do I connect to lxplus?
     A-=you just execute "ssh NAME@lxplus.cern.ch", with "NAME" your login name.
     If you need to open things remotely, "ssh -X NAME@lxplus.cern.ch"
     If you need to copy things from/to lxplus, use "scp"
+
+Q-What can I do if I get "Permission denied (publickey)" when I'm trying to git clone a repository?
+    
+    Start ssh-agent with: 
+        eval "$(ssh-agent -s)" 
+    check if your key has been added with 
+        ssh-add -l 
+    If your key doesn't show up, just add it with
+        ssh-add <key_file_location>
+        

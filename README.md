@@ -29,6 +29,10 @@ Introduction:
 Extra:
 
     https://carpentries-incubator.github.io/shell-extras/
+ 
+## Gardener Modules Guide
+ 
+ * https://docs.google.com/document/d/1TQ3w-JTNYL5pPmJFRWaA2fiHDvL-cm5mmUFI3jFvvQc/edit
 
 
 # Available Guides
@@ -40,4 +44,5 @@ Extra:
  * Simple description of how *Hercules connection works* : *ProxyTunnel.md*; 
  * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*LatinoPlot.py*;
  * Useful links and information about bTag: *bTag.md*;
+ * How to use Lxplus account: *sshLxplus.md* 
  
