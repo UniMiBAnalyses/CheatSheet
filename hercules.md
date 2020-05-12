@@ -13,7 +13,7 @@
     therefore one should first connect to ```cerbero```,
     and then from there to ```hercules```:
 ```
-ssh username@cerbero@mib.infn.it
+ssh username@cerbero.mib.infn.it
 ssh username@hercules.mib.infn.it
 ```
     
