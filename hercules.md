@@ -17,3 +17,9 @@ ssh username@cerbero.mib.infn.it
 ssh username@hercules.mib.infn.it
 ```
     
+## CMSSW configuration
+
+
+## use HTCondor
+
+
