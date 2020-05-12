@@ -37,12 +37,12 @@ Extra:
 
 # Available Guides
 
- * Simple guide about git here: *Git_QuickGuide.md*;
- * How to install *kate* and fish for remote access here: *KATE.md*;
- * Some *ROOT CERN* tutorials: *ROOT_CERN.md*;
- * Install ROOT from source on your laptop: *ROOT.md*;
- * Simple description of how *Hercules connection works* : *ProxyTunnel.md*; 
- * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*LatinoPlot.py*;
- * Useful links and information about bTag: *bTag.md*;
+ * Simple guide about git here: *[Git_QuickGuide.md](Git_QuickGuide.md)*;
+ * How to install *kate* and fish for remote access here: *[KATE.md](KATE.md)*;
+ * Some *ROOT CERN* tutorials: *[ROOT_CERN.md](ROOT_CERN.md)*;
+ * Install ROOT from source on your laptop: *[ROOT.md](ROOT.md)*;
+ * Simple description of how *Hercules connection works* : *[ProxyTunnel.md](ProxyTunnel.md)*; 
+ * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*[LatinoPlot.py](LatinoPlot.py)*;
+ * Useful links and information about bTag: *[bTag.md](bTag.md)*;
  * How to use Lxplus account: *[sshLxplus.md](sshLxplus.md)*
  
