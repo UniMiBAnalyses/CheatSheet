@@ -45,4 +45,5 @@ Extra:
  * How to obtain plot using LatinoFramework (easyDescription, mkShapes, mkPlot and mkDatards):*[LatinoPlot.py](LatinoPlot.py)*;
  * Useful links and information about bTag: *[bTag.md](bTag.md)*;
  * How to use Lxplus account: *[sshLxplus.md](sshLxplus.md)*
+ * How to use the Milano-Bicocca local cluster: *[hercules.md](hercules.md)*
  
