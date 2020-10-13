@@ -20,7 +20,7 @@ Then on the open line type something like:
 
     fish://amassiro@lxplus.cern.ch/afs/cern.ch/user/a/amassiro/test_file.txt
 
-    
+ciao    
     
 
 
