@@ -18,9 +18,7 @@ Install Kate from source, and for your use add the alias:
 
 Then on the open line type something like:
 
-    fish://amassiro@lxplus.cern.ch/afs/cern.ch/user/a/amassiro/test_file.txt
-
-ciao    
+    fish://amassiro@lxplus.cern.ch/afs/cern.ch/user/a/amassiro/test_file.txt    
     
 
 
