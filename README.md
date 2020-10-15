@@ -46,4 +46,5 @@ Extra:
  * Useful links and information about bTag: *[bTag.md](bTag.md)*;
  * How to use Lxplus account: *[sshLxplus.md](sshLxplus.md)*
  * How to use the Milano-Bicocca local cluster: *[hercules.md](hercules.md)*
+ * How to setup the EOS fancy webpage for plots: *[guide](https://cernbox-manual.web.cern.ch/cernbox-manual/en/web/)*
  
