@@ -33,7 +33,9 @@ In order to exit:
 If you leave lxplus and you want to access again a _screen_ active session, you have to access the same lxplus (751 in this example).
 
 Activate the cms environment:
-` source /cvmfs/cms.cern.ch/cmsset_default.sh `
+   
+   `source /cvmfs/cms.cern.ch/cmsset_default.sh`
+
 Now you should be able to execute `cmsenv`and all other cms alias commands from within the screen session.
 
 Warning: the _screen_ shell could result a limited one, but workarounds are available. For example if _cmsenv_ does not work, you can use
