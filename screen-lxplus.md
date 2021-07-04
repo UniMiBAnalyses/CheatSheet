@@ -42,4 +42,8 @@ Warning: the _screen_ shell could result a limited one, but workarounds are avai
 
     eval `scramv1 runtime -sh`
 
+Read / write privileges might be blinded in lxplus screen session. If you need to save files from inside the screen session and it does not comply you may need to explicitly update permissions:
 
+	kinit && aklog
+	
+insert the password you use to login into lxplus shell and you should be able to create and remove files within the screen session. 
