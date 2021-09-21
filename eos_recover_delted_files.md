@@ -57,3 +57,7 @@ cHDD_cHW_etaj2.png
 cHDD_cHW_etal1.png
 ...
 ```
+
+# Resources
+- https://twiki.cern.ch/twiki/bin/view/EOS/RecoverDeletedData
+- https://twiki.cern.ch/twiki/bin/view/EOS/EOSLostFiles (old)
