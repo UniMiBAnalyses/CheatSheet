@@ -50,3 +50,6 @@ Extra:
  * How to use a _screen_ shell in lxplus: *[screen-lxplus.md](screen-lxplus.md)*
  * How to recover deleted eos files/folders: *[eos_recover_delted_files.md](eos_recover_delted_files.md)*
  * How to prepare an Analysis Note, AN: *[PrepareAN.md](PrepareAN.md)*
+ 
+### Analysis instructions and tools:
+ * How to do a likelihood scan with Combine: *[Combine_likelihood_scans.md](Combine_likelihood_scans.md)*
