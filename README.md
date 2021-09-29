@@ -49,3 +49,4 @@ Extra:
  * How to setup the EOS fancy webpage for plots: *[guide](https://cernbox-manual.web.cern.ch/cernbox-manual/en/web/)*
  * How to use a _screen_ shell in lxplus: *[screen-lxplus.md](screen-lxplus.md)*
  * How to recover deleted eos files/folders: *[eos_recover_delted_files.md](eos_recover_delted_files.md)*
+ * How to prepare an Analysis Note, AN: *[PrepareAN.md](PrepareAN.md)*
