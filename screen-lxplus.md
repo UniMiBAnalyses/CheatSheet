@@ -47,3 +47,7 @@ Read / write privileges might be blinded in lxplus screen session. If you need t
 	kinit && aklog
 	
 insert the password you use to login into lxplus shell and you should be able to create and remove files within the screen session. 
+Request a 50h long token 
+
+	kinit -l 50:00 && aklog
+	
