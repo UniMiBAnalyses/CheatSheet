@@ -33,7 +33,7 @@ Extra:
 ## Gardener Modules Guide
  
  * https://docs.google.com/document/d/1TQ3w-JTNYL5pPmJFRWaA2fiHDvL-cm5mmUFI3jFvvQc/edit
-
+ * Post Process nanoAOD with NanoGardener: *[postProcGuide.md](postProcGuide.md)*;
 
 # Available Guides
 
