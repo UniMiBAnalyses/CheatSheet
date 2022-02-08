@@ -76,7 +76,9 @@ cp /afs/cern.ch/work/j/jixiao/public/forElena/framework/FatJetCorrHelper.py ./
 cp /afs/cern.ch/work/j/jixiao/public/forElena/framework/Steps_cfg.py ./
 ``` -->
 Finally you can set voms proxy with: `voms-proxy-init -voms cms -valid 192:00`,
- and run the commands below.
+ and run the commands below. 
+ 
+ *Remember to run grid before all of the commands below if your proxy expires*
 
 
 
@@ -92,7 +94,6 @@ Finally you can set voms proxy with: `voms-proxy-init -voms cms -valid 192:00`,
 If the last step isn't working, please edit the following files in 
 `LatinoAnalysis/NanoGardener/python/data/DYSFmva/2018_alt/`:
 ```
-TMVAClassification_PyKeras_2018_2j.weights.xml
 TMVAClassification_PyKeras_2018_0j.weights.xml
 TMVAClassification_PyKeras_2018_1j.weights.xml
 TMVAClassification_PyKeras_2018_2j.weights.xml
