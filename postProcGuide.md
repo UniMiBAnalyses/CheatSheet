@@ -1,5 +1,51 @@
 # Postprocessing guide for [LatinoAnalysis NanoGardener](https://github.com/latinos/LatinoAnalysis/tree/master/NanoGardener)
 
+This guide is divided in two sections. In the first one the reader is instructed on how to process centrally produced nanoAOD, enabling the processing of virtually any sample for your analysis (in particular this is extremely useful for most common background processes such as DY, multijet QCD, top induced processes etc.. ). Bear in mind that the Latinos group already processed plenty of samples, so before starting the postprocessing of a sample, check the following files and see wether your sample has been already processed:
+- 2016: https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/samples/Summer16_102X_nAODv7.py
+- 2017: https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/samples/fall17_102X_nAODv7.py
+- 2018: https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/samples/Autumn18_102X_nAODv7.py
+
+## Process centrally produced nanoAOD
+
+Suppose you started a new and very fancy analysis. You realize that somehow one of the needed background is not available in the Latinos central folder. First thing you need to check wether centrally produced nanoAOD do exist (which are "vanilla nanoAOD", before the Latino post-processing). To do so you might want to consult the CMS Data Aggregation System: https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=dataset%3D%2FDYJetsToLL_0J*%2F*NanoAODv7*102X*%2FNANOAODSIM
+
+Pay attention to the syntax you use to query datasets. The first entry `DYJetsToLL_0J*` is just the dataset name, followed by the MC Tune `TuneCP5` for underlying events, the COM energy `13TeV`, the hard process MC generator `amcatnlo`, the parton-jet marging algorithm `FXFX` and the parton shower `pythia8`. The second entry is the central production camapign `RunIIAutumn18NanoAODv7-Nano02Apr2020_102X` which tells you the date of the campaign, the nanoAOD version for the campaign `NanoAODv7` and the CMS version used for the processing `102X`. It is important that the samples you select are processed with version 7 of the nanoAOD `NanoAODv7` as the Latino Frameworks only works with this version. The last line is the global tag and version (detector geometry etc etc) used for the campaign `upgrade2018_realistic_v21-v1`. Lastly, and this is important, the dataset type you want in our case it is mandatory the `NANOAODSIM` step (there are many others, slide 26 here https://conference.ippp.dur.ac.uk/event/704/attachments/3462/3813/CMS_data_mc_IPPP.pdf ).
+
+Once you find the dataset you want to process with Latinos framework e.g. `/DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18NanoAODv7-Nano02Apr2020_102X_upgrade2018_realistic_v21-v1/NANOAODSIM` you have to edit some Latinos files in order for xrdcp to take this root filles distributed over the various Tier2, issue the processing, and copy the output on your personal eos (by default it will try to copy the output to `/eos/cms/store/group/phys_higgs/cmshww/amassiro/HWWNano/` which is a special directory with limited write access.
+
+In `Sites_cfg.py` line 16 (https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/Sites_cfg.py#L16) modify the dict entry as follows:
+
+``` 
+  'cern' : {
+              'lsCmd'       : 'ls' ,
+              'mkDir'       : True ,
+              'xrootdPath'  : 'root://eosuser.cern.ch/' ,
+            #  'treeBaseDir' : '/eos/cms/store/group/phys_higgs/cmshww/amassiro/HWWNano/' ,
+              'treeBaseDir' : '/eos/user/g/gboldrin/nanoLatino/' ,
+              'treeBaseDirOut' : '/eos/user/g/gboldrin/nanoLatino/' ,
+              'batchQueues' : ['8nh','1nd','2nd','1nw'],
+              'slc_ver'     : 7
+           } ,
+```
+
+where the entries `treeBaseDir`and `treeBaseDirOut` should point to an existing folder on your personal eos. Secondly uncomment the following line https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/PostProcMaker.py#L32
+
+Now you just need to add your sample to the samples configuration (https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/samples/Autumn18_102X_nAODv7.py). The order is not important. Just add an entry where the key `DYJetsToLL_0J` in this example is arbitrary:
+``` 
+Samples['DYJetsToLL_0J'] = {'nanoAOD' : '/DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIIAutumn18NanoAODv7-Nano02Apr2020_102X_upgrade2018_realistic_v21-v1/NANOAODSIM'}
+```
+
+Now you can run the first step of the post-processing as follows:
+
+```
+mkPostProc.py -p Autumn18_102X_nAODv7_Full2018v7 -b -s MCl1loose2018v7 -Q tomorrow -T DYJetsToLL_0J 
+```
+
+Where no `-i` step should be specified as we are starting from scratch. In order to further process this sample after this step is finished some changes are needed because we would want to take the output of the `MCl1loose2018v7` step which is now on our eos space. In order to do such please read the next chapter.
+
+
+## Process privately produced nanoAOD
+
 
 ### Step Zero
 
