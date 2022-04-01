@@ -5,6 +5,8 @@ This guide is divided in two sections. In the first one the reader is instructed
 - 2017: https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/samples/fall17_102X_nAODv7.py
 - 2018: https://github.com/latinos/LatinoAnalysis/blob/76e7c4b93aa5f056c92440d4e8d24e7de749c8fe/NanoGardener/python/framework/samples/Autumn18_102X_nAODv7.py
 
+The second part is devoted to the processing of nanoAODs from a private production. In the real life, you might want to study a graviton production decaying into an Higgs pair decaying into four muons. You quickly realize no one ever did such search (because it is quite dumb) and therefore there are no centrally produced nanoAOD. You then create your gridpack, run it through the whole simulation up to nanoAODv7 level and then you might want to further postprocess the sample to use the Latinos framework for your study.
+
 ## Process centrally produced nanoAOD
 
 Suppose you started a new and very fancy analysis. You realize that somehow one of the needed background is not available in the Latinos central folder. First thing you need to check wether centrally produced nanoAOD do exist (which are "vanilla nanoAOD", before the Latino post-processing). To do so you might want to consult the CMS Data Aggregation System: https://cmsweb.cern.ch/das/request?view=list&limit=50&instance=prod%2Fglobal&input=dataset%3D%2FDYJetsToLL_0J*%2F*NanoAODv7*102X*%2FNANOAODSIM
