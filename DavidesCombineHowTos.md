@@ -57,11 +57,11 @@ Combine è legato alla versione di CMSSW perchè di base usa root. Noi usiamo 10
 # Comandi
 - Creare la datacard:
 
-`text2workspace.py combined.txt -o combined.roo`
+`text2workspace.py combined.txt -o combined.root`
 
 - Fit con likelihood scan con Asimov dataset
 
-`combine -M FitDiagnostics -t -1 --expectSignal=1 combined.root &> logFit.tx` 
+`combine -M FitDiagnostics -t -1 --expectSignal=1 combined.root &> logFit.txt` 
 
 - Fit con likelihood scan con Asimov but using the post-fit values for nuisances
 
