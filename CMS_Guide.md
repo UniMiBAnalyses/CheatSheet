@@ -16,24 +16,24 @@
 ## Self Rescue Mask
 
 * Needs to be taken on-site at Prevessin, reservation through EDH, and it can take several weeks before having a spot
-  * Newcomer should follow / subscribe to the following course that lasts 2 hours (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040062&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[Mask course]
-  * Those who have already followed the main course, needs to refresh the use of the mask every 36 months by subscribing to the 1 hour reharsal (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000043458&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[Mask refresh]
+  * Newcomer should follow / subscribe to the following course that lasts 2 hours [[Mask course]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040062&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
+  * Those who have already followed the main course, needs to refresh the use of the mask every 36 months by subscribing to the 1 hour reharsal [[Mask refresh]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000043458&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
 
 ## Fire Extinguisher
 
 * Needs to be taken on-site at Prevessin, reservation through EDH, and it can take several weeks before having a spot
-  * Newcomer should follow / subscribe to the following course that lasts 2 hours (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000039915&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[Fire course]
-  * Those who have already followed the main course, needs to refresh the use of the mask every 36 months by subscribing to the 1 hour reharsal (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000043458&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[Extinguisher refresh]
+  * Newcomer should follow / subscribe to the following course that lasts 2 hours [[Fire course]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000039915&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
+  * Those who have already followed the main course, needs to refresh the use of the mask every 36 months by subscribing to the 1 hour reharsal [[Extinguisher refresh]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000043458&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
 
 ## First AID
 
 * Needs to be taken on-site at Prevessin, reservation through EDH, and it can take several weeks before having a spot
-* The course last 3.5 hours and its description is given at (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000043535&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[First AID]
+* The course last 3.5 hours and its description is given at [[First AID]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000043535&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
 
 ## CMS Guide course
 
 * Needs to be taken on-site at P5, reservation through EDH, and it can take several weeks before having a spot.
-* The course last 3 hoursm and it will be about the CMS underground areas that should be shown during a guided tour (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000039960&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[CMS p5 guide]
+* The course last 3 hoursm and it will be about the CMS underground areas that should be shown during a guided tour [[CMS p5 guide]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000039960&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
 
 
 
