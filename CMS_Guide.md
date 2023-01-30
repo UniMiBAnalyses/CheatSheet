@@ -1,17 +1,17 @@
 # List of instructions on how to become a CMS Guide
 
-* General instructions are described in the webpage (https://espace.cern.ch/CMSguides/Join%20the%20CMS%20Guides/Home.aspx)[CMS Guide].
+* General instructions are described in the webpage [[CMS Guide]](https://espace.cern.ch/CMSguides/Join%20the%20CMS%20Guides/Home.aspx).
 * A list of courses are needed in order to become an official CMS guide, these are described below
 
 ## Basic Courses
 
-* Once logged into the CERN SSO, the learning hub webpage allows you to subscribe / search the course catalogue (https://lms.cern.ch)[LMS CERN]
-* *Safety at CERN*: 20 minutes course full online (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040616&TX=FORMAT1&LANGUAGE_TAG=%2aALL%2a&DECORATEPAGE=N)[Basic safety]
-* *Radiation protection awareness*: 20 minutes course full online (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040639&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[Radiation]
-* *Emergency evacuation*: 10 minutes course full online (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040683&TX=FORMAT1&LANGUAGE_TAG=*ALL*&DECORATEPAGE=N)[Emergency]
-* *Beam facility*: 20 minutes course full online (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040585&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[Beam facility]
-* *CERN LHC experiments*: 20 minutes course full online (https://lms.cern.ch/ekp/servlet/ekp?TX=FORMAT1&CID=EKP000040606&LOTYPE=C&PX=N)[LHC exp] 
-* *CMS surface & undergrand*: 20 minutes course full online (https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040636&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)[CMS p5]
+* Once logged into the CERN SSO, the learning hub webpage allows you to subscribe / search the course catalogue [[LMS CERN]](https://lms.cern.ch)
+* *Safety at CERN*: 20 minutes course full online [[Basic safety]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040616&TX=FORMAT1&LANGUAGE_TAG=%2aALL%2a&DECORATEPAGE=N)
+* *Radiation protection awareness*: 20 minutes course full online [[Radiation]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040639&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
+* *Emergency evacuation*: 10 minutes course full online [[Emergency]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040683&TX=FORMAT1&LANGUAGE_TAG=*ALL*&DECORATEPAGE=N)
+* *Beam facility*: 20 minutes course full online [[Beam facility]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040585&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
+* *CERN LHC experiments*: 20 minutes course full online [[LHC exp]](https://lms.cern.ch/ekp/servlet/ekp?TX=FORMAT1&CID=EKP000040606&LOTYPE=C&PX=N)
+* *CMS surface & undergrand*: 20 minutes course full online [[CMS p5]](https://lms.cern.ch/ekp/servlet/ekp?PX=N&TEACHREVIEW=N&CID=EKP000040636&TX=FORMAT1&LANGUAGE_TAG=en&DECORATEPAGE=N)
 
 ## Self Rescue Mask
 
