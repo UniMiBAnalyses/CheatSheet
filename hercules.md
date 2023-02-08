@@ -16,6 +16,26 @@
 ssh username@cerbero.mib.infn.it
 ssh username@hercules.mib.infn.it
 ```
+
+## Connect to CERN AFS and eos
+
+Run the following commands from within hercules (better save them in bash or setup script)
+
+```
+export KRB5CCNAME=/gwpool/users/<hercules_username>/krb5cc_`id -u <hercules_username>`
+kinit
+eosfusebind -g
+aklog
+```
+
+If your hercules username does not match you lxplus username:
+
+```
+export KRB5CCNAME=/gwpool/users/<hercules_username>/krb5cc_`id -u <hercules_username>`
+kinit -f <lxplus_username>@CERN.CH
+eosfusebind -g
+aklog
+```
     
 ## CMSSW configuration
 
