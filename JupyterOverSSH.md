@@ -65,4 +65,11 @@ from the output look for the link with localhost and take note of the port `http
 ## Open port to remote machine
 You can open the port that was taken by jupyter and expose it to your lapton as 8888 or whatever port is free on your pc:
 
-`ssh hercules -NL 8888:localhost:PORT` 
+`ssh hercules -NL PORT1:localhost:PORT` 
+
+---
+
+## Open the link jupyter gave you on your browser
+
+Open `http://localhost:PORT1/token?....` with the port you opened 
+
