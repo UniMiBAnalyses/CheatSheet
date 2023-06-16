@@ -36,7 +36,17 @@ kinit -f <lxplus_username>@CERN.CH
 eosfusebind -g
 aklog
 ```
-    
+
+## Run Latinos on Hercules
+
+Latinos won't work out of the box. A branch was made to let latinos work on hercules:
+https://github.com/UniMiBAnalyses/LatinoAnalysis/tree/VBS_skim_giacomo
+
+Details are in the README of the VBS_skim_giacomo branch.
+
+```git clone --branch VBS_skim_giacomo git@github.com:UniMiBAnalyses/LatinoAnalysis.git```
+
+
 ## CMSSW configuration
 
 
