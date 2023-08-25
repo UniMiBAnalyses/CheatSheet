@@ -1,5 +1,5 @@
 # Add external latex packages to TDR
-If you are compiling CMS AN, Papers of PhD thesis with centrally proivided [TDR scripts](https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/TdrProcessing) you will often find that packages are missing and you latex document is not compiled as you wanted to. For example these packages are not included
+If you are compiling CMS AN, Papers or PhD thesis with centrally proivided [TDR scripts](https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/TdrProcessing) you will often find that packages are missing and you latex document is not compiled as you wanted to. For example these packages are not included
 ```
 \usepackage{makecell}
 \usepackage{booktabs,siunitx}
