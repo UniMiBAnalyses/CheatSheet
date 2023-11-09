@@ -51,5 +51,7 @@ Extra:
  * How to recover deleted eos files/folders: *[eos_recover_delted_files.md](eos_recover_delted_files.md)*
  * How to prepare an Analysis Note, AN: *[PrepareAN.md](PrepareAN.md)*
  * How to connect to jupyter notebook open on a remote macine: [JupyterOverSSH.md](JupyterOverSSH.md)
+ * How to remote access with SSH in VS Code: [remoteEditing.md](remoteEditing.md)
+
 ### Analysis instructions and tools:
  * How to do a likelihood scan with Combine: *[Combine_likelihood_scans.md](Combine_likelihood_scans.md)*
