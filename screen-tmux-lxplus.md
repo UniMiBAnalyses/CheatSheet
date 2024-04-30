@@ -1,4 +1,8 @@
-# How to use a _screen_ shell in lxplus
+# How to use a _screen_ or tmux shell in lxplus
+
+New instructions are [here](https://hsf-training.github.io/analysis-essentials/shell-extras/persistent-screen.html)
+
+## Old instructions
 
 Access an lxplus (remember the machine number), e.g.
 
