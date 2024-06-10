@@ -13,7 +13,7 @@ Nice instructions and suggestions
  * Link to the latest version of the lecture notes of W.J.Metzger ("Statistical Methods in Data Analysis") containing a brief review of probability, an introduction to Monte Carlo methods,
 estimation of parameters, confidence intervals, and hypothesis testing: http://www.hef.ru.nl/~wes/stat_course/statist_2002.pdf
 
-## Statistics
+## Systematics
 * Recepit for correlation / uncorrelation of systematic uncertainties by TOP group (but there is no reason to be different from other groups https://twiki.cern.ch/twiki/bin/view/CMS/TopSystematics)
 
 ## Latino Framework installation guide
