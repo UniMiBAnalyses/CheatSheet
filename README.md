@@ -4,7 +4,7 @@ Nice instructions and suggestions
 
 ## Nice Instructions
 
- * every two hours, take a break!
+ * every two hours, take a break! (ahahah who put this? :skull:)
  
  
 ## Statistics
@@ -12,6 +12,9 @@ Nice instructions and suggestions
  * Description of the statistical analysis performed at ATLAS and CMS, details about likelihood fit, nuisances, ... Link: https://cds.cern.ch/record/1379837/files/NOTE2011_005.pdf
  * Link to the latest version of the lecture notes of W.J.Metzger ("Statistical Methods in Data Analysis") containing a brief review of probability, an introduction to Monte Carlo methods,
 estimation of parameters, confidence intervals, and hypothesis testing: http://www.hef.ru.nl/~wes/stat_course/statist_2002.pdf
+
+## Statistics
+* Recepit for correlation / uncorrelation of systematic uncertainties by TOP group (but there is no reason to be different from other groups https://twiki.cern.ch/twiki/bin/view/CMS/TopSystematics)
 
 ## Latino Framework installation guide
  * Link to a step-by-step guide for installing the latino framework on hercules: https://docs.google.com/presentation/d/1-Hb5WXXzh-DvXmM1YBS-0j-YYFYemwJAPaaYzfXhlXw/edit?usp=sharing
