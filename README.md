@@ -32,7 +32,12 @@ Introduction:
 Extra:
 
     https://carpentries-incubator.github.io/shell-extras/
- 
+
+## CERN SSO (2FA)
+
+    CERN SSO python tools by TSG to authenticate in protected pages (supporting 2FA):
+    https://gitlab.cern.ch/cms-tsg/common/tsgauth
+
 ## Gardener Modules Guide
  
  * https://docs.google.com/document/d/1TQ3w-JTNYL5pPmJFRWaA2fiHDvL-cm5mmUFI3jFvvQc/edit
